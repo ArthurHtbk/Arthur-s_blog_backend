@@ -21,7 +21,7 @@ cloudinary.config({
   secure: true,
 });
 
-const userRoutes = require("./routes/user");
+const userRoutes = require("./Routes/user");
 app.use(userRoutes);
 
 app.all("*", (req, res) => {
